@@ -8,7 +8,7 @@
 /* Header */
 
 header {
-    background-color: rgb(32, 146, 246);
+    background-color: rgb(78, 160, 255);
     background-image: url(../img/pattern.png);
     height: 18vh;
     position: relative;
@@ -19,4 +19,41 @@ header img {
     position: absolute;
     bottom: 15px;
     left: 10px;
+}
+
+/* Main Article */
+
+main {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 15px;
+} 
+
+.writtenby {
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.writtenby a {
+    text-decoration: none;
+    color: rgb(118, 202, 239);
+}
+
+.date {
+    font-size: 12px;
+    display: block;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background-color: rgb(255, 255, 0);
 }
