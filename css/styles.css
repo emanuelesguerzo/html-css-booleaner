@@ -65,3 +65,20 @@ ul {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+/* Table */
+
+table {
+    text-align: left;
+    margin-right: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(32, 169, 229);
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(177, 229, 242);
+}
