@@ -82,3 +82,10 @@ th {
 tr:nth-child(odd) {
     background-color: rgb(177, 229, 242);
 }
+
+/* Outro Text */
+
+.endtext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
