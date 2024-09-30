@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+/* Header */
 
+header {
+    background-color: rgb(32, 146, 246);
+    background-image: url(../img/pattern.png);
+    height: 18vh;
+    position: relative;
+}
 
-
+header img {
+    width: 250px;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
